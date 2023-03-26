@@ -1,8 +1,11 @@
-package strategy;
+package strategy.examples.duck.client;
+
+import strategy.examples.duck.strategy.FlyBehavior;
+import strategy.examples.duck.strategy.QuackBehavior;
 
 public abstract class Duck {
-    FlyBehavior flyBehavior;
-    QuackBehavior quackBehavior;
+    protected FlyBehavior flyBehavior;
+    protected QuackBehavior quackBehavior;
 
     public abstract void display();
 

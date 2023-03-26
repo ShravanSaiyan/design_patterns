@@ -1,4 +1,8 @@
-package strategy;
+package strategy.examples.duck.client.impl;
+
+import strategy.examples.duck.client.Duck;
+import strategy.examples.duck.strategy.impl.NoFly;
+import strategy.examples.duck.strategy.impl.Quack;
 
 public class ModelDuck extends Duck {
     public ModelDuck() {
