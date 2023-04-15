@@ -1,4 +1,4 @@
-package decorator;
+package decorator.example.coffee.component;
 
 public class Espresso extends Beverage {
     public Espresso() {

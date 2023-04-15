@@ -1,4 +1,6 @@
-package decorator;
+package decorator.example.coffee.decorator;
+
+import decorator.example.coffee.component.Beverage;
 
 public class Mocha extends CondimentDecorator {
     public Mocha(Beverage beverage) {

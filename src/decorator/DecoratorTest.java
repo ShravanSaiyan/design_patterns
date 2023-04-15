@@ -1,5 +1,10 @@
 package decorator;
 
+import decorator.example.coffee.component.Beverage;
+import decorator.example.coffee.component.DarkRoast;
+import decorator.example.coffee.component.Espresso;
+import decorator.example.coffee.decorator.Mocha;
+
 public class DecoratorTest {
     public static void main(String[] args) {
         Beverage beverage = new Espresso();
