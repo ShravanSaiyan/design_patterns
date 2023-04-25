@@ -1,4 +1,4 @@
-package command;
+package command.examples.remote;
 
 public class LightOffCommand implements Command {
     Light light;
