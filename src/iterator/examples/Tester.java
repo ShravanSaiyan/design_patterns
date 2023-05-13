@@ -15,9 +15,9 @@ public class Tester {
         Iterator<MenuItem> menuItemIterator = menuItems.iterator();
 
         menuItemIterator.forEachRemaining(menuItem -> {
-            System.out.println(menuItem.getName());
-            System.out.println(menuItem.getDescription());
-            System.out.println(menuItem.getPrice());
+            System.out.println(menuItem.name());
+            System.out.println(menuItem.description());
+            System.out.println(menuItem.price());
         });
     }
 }
